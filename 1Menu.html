@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radha Patisserie - Menu[span_1](start_span)[span_1](end_span)</title>
+    <style>
+        :root {
+            --primary-color: #3b2f2f;
+            --accent-color: #c98a7a;
+            --bg-color: #f9f6f0;
+            --text-color: #5a4f4f;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .menu-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        .allergy-warning {
+            text-align: center;
+            font-style: italic;
+            font-size: 0.9rem;
+            color: #d9534f;
+            margin-bottom: 30px;
+        }
+
+        .category-title {
+            font-size: 1.5rem;
+            color: var(--accent-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .menu-item {
+            margin-bottom: 20px;
+        }
+
+        .item-name {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            margin: 0 0 5px 0;
+        }
+
+        .item-desc {
+            font-size: 0.95rem;
+            margin: 0;
+            color: var(--text-color);
+        }
+
+        .footer {
+            margin-top: 50px;
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-weight: bold;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 600px) {
+            .menu-container {
+                padding: 20px;
+            }
+            .menu-grid {
+                grid-template-columns: 1fr; /* Stacks items on small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu-container">
+        
+        <div class="header">
+            <h1>Radha Patisserie[span_2](start_span)[span_2](end_span)</h1>
+        </div>
+
+        <div class="allergy-warning">
+            <p>Kindly inform our team of any food allergies.[span_3](start_span)[span_3](end_span)</p>
+        </div>
+
+        <!-- Section: Signature Desserts -->
+        <h2 class="category-title">Signature Desserts</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <h3 class="item-name">STRAWBERRY ROSE[span_4](start_span)[span_4](end_span)</h3>
+                <p class="item-desc">Fresh strawberry compote, almond sponge, vanilla Chantilly cream.[span_5](start_span)[span_5](end_span)</p>
+            </div>
+            
+            <div class="menu-item">
+                <h3 class="item-name">MOLTEN BROWNIE[span_6](start_span)[span_6](end_span)</h3>
+                <p class="item-desc">Dark chocolate brownie, 46% chocolate, almond nibs, warm chocolate sauce[span_7](start_span)[span_7](end_span)</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 class="item-name">CREME CARAMEL[span_8](start_span)[span_8](end_span)</h3>
+                <p class="item-desc">Classic baked vanilla custard with caramel sauce.[span_9](start_span)[span_9](end_span)</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 class="item-name">TIRAMISU[span_10](start_span)[span_10](end_span)</h3>
+                <p class="item-desc">Mascarpone creame, lady finger soak with coffe syrup, cocoa powder With or without RUM[span_11](start_span)[span_11](end_span)</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 class="item-name">PISTACHIO TRES LECHES[span_12](start_span)[span_12](end_span)</h3>
+                <p class="item-desc">Pistachio sponge soaked in pistachio syrup, whipped cream, dried rose petals.[span_13](start_span)[span_13](end_span)</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 class="item-name">BABA AU RHUM[span_14](start_span)[span_14](end_span)</h3>
+                <p class="item-desc">Rum-soaked baba, mascarpone cream, orange compote. Available with or without rum. (alcohol optional)[span_15](start_span)[span_15](end_span)</p>
+            </div>
+        </div>
+
+        <!-- Section: Cookies & Cupcakes -->
+        <h2 class="category-title">Cookies & Cupcakes</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <h3 class="item-name">CHOCOLATE CHIP COOKIES[span_16](start_span)[span_16](end_span)</h3>
+                <p class="item-desc">dark chocolate chips 46%[span_17](start_span)[span_17](end_span)</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 class="item-name">PEANUT BUTTER COOKIES[span_18](start_span)[span_18](end_span)</h3>
+                <p class="item-desc">rich peanut Butter, roasted peanuts[span_19](start_span)[span_19](end_span)</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 class="item-name">VANILLA CUP CAKES[span_20](start_span)[span_20](end_span)</h3>
+                <p class="item-desc">Classic baked vanilla cakes[span_21](start_span)[span_21](end_span)</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 class="item-name">CHOCALATE CUP CAKES[span_22](start_span)[span_22](end_span)</h3>
+                <p class="item-desc">Quality dark chocalates[span_23](start_span)[span_23](end_span)</p>
+            </div>
+        </div>
+
+        <!-- Section: Whole Cakes -->
+        <h2 class="category-title">Whole Cakes</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <h3 class="item-name">CLASSIC FRUIT CAKE[span_24](start_span)[span_24](end_span)</h3>
+                <p class="item-desc">vanilla sponge,custard cream with fresh fruits, vanilla chantily,gold leaves[span_25](start_span)[span_25](end_span)</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 class="item-name">CHOCOLATE TRUFFLE CAKE[span_26](start_span)[span_26](end_span)</h3>
+                <p class="item-desc">Chocolate sponge chocolate ganacges and chocolate rose[span_27](start_span)[span_27](end_span)</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 class="item-name">REDVELVET CAKE[span_28](start_span)[span_28](end_span)</h3>
+                <p class="item-desc">classic redvelvet sponge.creamcheese frosting[span_29](start_span)[span_29](end_span)</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 class="item-name">STRAWBERRY CAKE[span_30](start_span)[span_30](end_span)</h3>
+                <p class="item-desc">strawberry mousse strawberry compote,strawberry creamuex,vanilla sponge[span_31](start_span)[span_31](end_span)</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 class="item-name">BLACKFOREST CAKE[span_32](start_span)[span_32](end_span)</h3>
+                <p class="item-desc">dark chocolate mousse,white chocolate mousse.cherry jelly,chocolate sponge[span_33](start_span)[span_33](end_span)</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 class="item-name">BASQUE CHEESE CAKE[span_34](start_span)[span_34](end_span)</h3>
+                <p class="item-desc">A rich, creamy baked cheesecake with a signature caramelized top and a silky.[span_35](start_span)[span_35](end_span)</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Order Now: +91-9942140762[span_36](start_span)[span_36](end_span) | Follow us: @RADHAS_PATISSERIE[span_37](start_span)[span_37](end_span)</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
